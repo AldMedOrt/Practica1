@@ -1,0 +1,63 @@
+Práctica 1: Instantaneas
+
+1. creamos una carpeta con la siguiente estructura de archivos
+
+index.html
+css
+	estilos.css
+js
+	javascript.css
+
+2. iniciamos git
+git init
+
+3. adicionamos el archivo index.html al área de stagin
+git add index.html
+
+git status -s
+
+4. Creamos una instantanea del archivo index.html
+git commit -m "inicio del proyecto"
+
+5. Visualizamos la instantanea creada
+git log --oneline
+
+6. adicionamos el archivo index.html al área de stagin
+git add index.html
+
+git status -s
+
+7. Modificamos el título y guardamos los cambios
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primera Práctica con GIT</title>
+</head>
+
+git status -s
+
+8. Creamos la segunda instantanea del archivo index.html
+git commit -m "Título adicionado"
+
+9. Visualizamos la instantanea creada
+git log --oneline
+
+10. adicionamos el archivo index.html al área de stagin
+git add index.html
+
+git status -s
+
+11. Adicionamos un párrafo y guardamos
+<body>
+    <h1>Primera Práctica con GIT!</h1>
+    <br>
+    <p> Esta es un practica guiada con el docente en el cutrso de contrucción de software 1.</p>
+</body>
+
+git status -s
+
+12. Creamos la tercera instantanea del archivo index.html
+git commit -m "Párrafo adicionado"
+
+9. Visualizamos la instantanea creada
+git log --oneline
